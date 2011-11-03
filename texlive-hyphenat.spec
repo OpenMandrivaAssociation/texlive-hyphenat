@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/hyphenat
+# catalog-date 2009-09-02 18:09:14 +0200
+# catalog-license lppl1.3
+# catalog-version 2.3c
 Name:		texlive-hyphenat
 Version:	2.3c
 Release:	1
@@ -46,6 +52,7 @@ text typeset in monospaced (e.g., cmtt) fonts.
 #- source
 %doc %{_texmfdistdir}/source/latex/hyphenat/hyphenat.dtx
 %doc %{_texmfdistdir}/source/latex/hyphenat/hyphenat.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ text typeset in monospaced (e.g., cmtt) fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
