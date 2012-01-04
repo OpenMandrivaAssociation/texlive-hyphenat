@@ -6,7 +6,7 @@
 # catalog-version 2.3c
 Name:		texlive-hyphenat
 Version:	2.3c
-Release:	1
+Release:	2
 Summary:	Disable/enable hypenation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hyphenat
