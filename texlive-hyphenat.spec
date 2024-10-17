@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Disable/enable hypenation
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hyphenat
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/hyphenat
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hyphenat.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hyphenat.doc.r%{version}.tar.xz
